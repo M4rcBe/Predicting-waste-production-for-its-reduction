@@ -9,7 +9,7 @@ Predict Waste Production for its Reduction
 * Alessandro Consiglio
 * Navid Saffari
 
-## ✨ Introduction (250 words max)
+## ✨ Introduction 
 Rapid urbanization is a fact. Cities all across the globe are growing rapidly, and with them waste and pollutions increase as well. In 2016, cities generated a total 
 of 2.01 billion tons of solid waste.
 For this challenge we try to find trends in waste production for identifying patterns and insights that might help optimize waste processing and, ultimately, reduce 
@@ -17,7 +17,7 @@ waste production overall.
 The project has been carried out using Austin, Texas, as the subject of study, but we hope the results may be applied to the general case as well.
 
 
-## 🔢 Data (250 words max)
+## 🔢 Data 
 We have used three datasets:
 1. Waste-data https://data.austintexas.gov/Utilities-and-City-Services/Waste-Collection-Diversion-Report-daily-/mbnu-4wq9
   Records waste-loads in pounds by date and time. Data is categorized by type of waste, where it is dropped off and the number of the route.
@@ -32,7 +32,7 @@ We have used three datasets:
   Daily weather data for Austin, cointains multiple measures. We used daily temperatures per month to find average monthly temperatures.
   Only contains values for 2013-12 to 27-07. Needs to be updated with more recent values to train models on longer time periods.
 
-## 🧮 Methods and Techniques (250 words max)
+## 🧮 Methods and Techniques 
 Tell us what methods and algorithms you used and the results you obtained.
 1. Exploratory/Descriptive analysis:
   This is where we explored the data to understand what we were working with. In this stage we transformed the data, for example from the date and time into summarized 
@@ -48,7 +48,7 @@ Tell us what methods and algorithms you used and the results you obtained.
   make a out of sample predictions since the data showed yearly seasonality.
   
 
-## 💡 Main Insights (300 words max)
+## 💡 Main Insights 
 Main insights from these anlyzes are to take advantage of the strong seasonality of the data shown in several models and decompositions presented. If the operational 
 management can anticipate and plan for heavy- and easy waste production resources can be used more efficiently and waste processing can happen smoothly.
 
